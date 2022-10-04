@@ -87,6 +87,7 @@ li {
 	border: none;
 	background-color: Transparent;
 	cursor: pointer;
+	padding: 0;
 }
 
 .search-btn:hover svg path {
@@ -586,10 +587,10 @@ button {
 .slider__block-1:nth-last-child(1) {
 	margin-right: 0;
 }
+
 .slider__img {
 	width: 129px;
 	height: 149px;
-
 	margin: 40px 24px 28px 40px;
 }
 
@@ -717,6 +718,7 @@ button {
 }
 
 .reservation__input {
+	outline: none;
 	border: none;
 	padding-top: 16px;
 	padding-left: 40px;
@@ -869,6 +871,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border: 1px solid #c99e71;
 	border-radius: 50%;
 	width: 48px;
 	height: 48px;
@@ -876,7 +879,8 @@ button {
 	transition: 0.3s;
 }
 .footer__button:hover {
-	box-shadow: 0px 9px 20px rgb(201 158 113 / 20%);
+	background-color: #1c1814;
+	border: 1px solid #c99e71;
 	cursor: pointer;
 }
 
