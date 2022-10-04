@@ -865,6 +865,9 @@ button {
 }
 .footer__form > input {
 	background: none;
+	cursor: pointer;
+	color: #fff;
+	outline: none;
 	border: none;
 }
 .footer__button {
