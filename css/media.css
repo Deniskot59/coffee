@@ -1,0 +1,907 @@
+@media (max-width: 1200px) {
+	.header__nav {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.process {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.process__img {
+		width: 320px;
+		height: 330px;
+	}
+	.history__block-3 {
+		height: 526px;
+		padding-top: 75px;
+	}
+	.history__block-1 {
+		margin-right: 20px;
+	}
+	.history__img-1 {
+		margin-bottom: 20px;
+	}
+	.history__block-2 {
+		margin-right: 20px;
+	}
+	.history__title {
+		text-align: center;
+	}
+	.history {
+		margin-bottom: 60px;
+	}
+	.product__cart {
+		margin-bottom: 60px;
+	}
+	.product__title {
+		margin-bottom: 30px;
+	}
+	.product__text {
+		margin-bottom: 0;
+	}
+	.product__cart-title {
+		font-size: 18px;
+	}
+	.product__price {
+		margin-left: 15px;
+		font-size: 17px;
+	}
+	.product__btn {
+		margin-top: 0;
+		margin-bottom: 60px;
+	}
+	.discover {
+		margin-bottom: 60px;
+	}
+	.discover__title {
+		font-size: 46px;
+	}
+	.menu__content-block {
+		grid-template-columns: repeat(2, 469px);
+		column-gap: 25px;
+	}
+	.menu__content-block-1 {
+		width: 480px;
+		height: 90px;
+		margin-bottom: 15px;
+	}
+	.reservation__content {
+		margin-bottom: 60px;
+	}
+	.news__card--img {
+		max-width: 300px;
+		height: 320px;
+		margin-right: 20px;
+	}
+	.news__name {
+		margin-bottom: 20px;
+	}
+	.news {
+		margin-bottom: 60px;
+	}
+	.news__card {
+		height: 500px;
+	}
+	.reservation__title {
+		font-size: 46px;
+		margin-bottom: 40px;
+	}
+	.reservation__input {
+		padding-top: 10px;
+		padding-left: 34px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	.reservation__form {
+		height: 585px;
+	}
+	#map {
+		height: 585px;
+	}
+	.footer__top {
+		height: 110px;
+	}
+	.footer__logo {
+		display: none;
+	}
+	.footer__bottom {
+		height: 50px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.header__nav {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.header__nav-list {
+		font-size: 16px;
+	}
+	.search-img {
+		width: 25px;
+		height: 25px;
+	}
+	.shopping-img {
+		width: 25px;
+		height: 25px;
+	}
+
+	.nav__button {
+		display: none;
+	}
+	.hero {
+		padding-bottom: 115px;
+	}
+	.hero-play {
+		display: none;
+	}
+	.hero-content__title {
+		padding-top: 85px;
+		font-size: 50px;
+	}
+	.hero-content__text {
+		margin-bottom: 40px;
+		margin-right: 0;
+		padding-bottom: 0;
+	}
+	.title {
+		font-size: 46px;
+		margin-bottom: 40px;
+	}
+	.hero-content__btn {
+		padding: 15px 25px;
+		font-size: 16px;
+	}
+
+	.process {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.process__title {
+		font-size: 22px;
+	}
+	.process__img {
+		width: 237px;
+		height: 260px;
+	}
+
+	.history {
+		margin-bottom: 60px;
+	}
+	.history__block-3 {
+		height: 402px;
+		text-align: center;
+		padding: 15px 5px 15px;
+	}
+	.history__title {
+		font-size: 38px;
+	}
+	.history__img-1 {
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	.product__title {
+		margin-bottom: 30px;
+	}
+	.product__cart {
+		max-width: 260px;
+	}
+	.product__cart-title {
+		font-size: 18px;
+	}
+	.cart-link {
+		margin-right: 10px;
+	}
+	.product__img {
+		margin-bottom: 28px;
+	}
+	.product__cart-title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.product__stars {
+		margin-bottom: -10px;
+	}
+	.product__price {
+		margin-left: -5px;
+		font-size: 16px;
+	}
+	.svg-btn {
+		margin-right: 10px;
+		margin-top: 0px;
+	}
+	.product-cart__button > form > button {
+		margin-left: 0px;
+		padding: 8px 8px 8px 8px;
+		text-align: center;
+	}
+	.btn {
+		padding: 15px 25px;
+		font-size: 16px;
+	}
+	.discover__img {
+		height: 280px;
+		margin: 85px;
+	}
+	.discover__title {
+		font-size: 38px;
+		margin-top: 36px;
+		margin-right: 20px;
+		margin-bottom: 36px;
+		text-align: center;
+	}
+	.discover__text {
+		text-align: center;
+		margin: 0 20px 30px;
+	}
+	.discover__content-block {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.discover-btn {
+		margin-bottom: 36px;
+	}
+	.menu-block {
+		display: none;
+	}
+	.menu__content-block {
+		display: flex;
+		grid-template-columns: repeat(2, 565px);
+		column-gap: 30px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.menu__content-block-1 {
+		width: 565px;
+	}
+	.menu {
+		margin-bottom: 60px;
+	}
+	.menu-block {
+		display: none;
+	}
+	.owl-carousel {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.reservation__title {
+		margin-bottom: 20px;
+	}
+	.reservation__input {
+		margin-bottom: 10px;
+	}
+	.reservation__btn {
+		margin-top: 20px;
+	}
+	#map {
+		width: 400px;
+		height: 500px;
+	}
+	.reservation__form {
+		height: 500px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.news__card {
+		height: 400px;
+	}
+	.news__card--img {
+		max-width: 220px;
+		height: 260px;
+		margin-right: 15px;
+	}
+	.news__descr {
+		font-size: 16px;
+	}
+	.news__description {
+		margin: 10px 16px 10px 0px;
+	}
+	.news__name {
+		font-size: 18px;
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+	.news__btn {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.footer__nav-list {
+		margin-right: 20px;
+	}
+	.footer__nav-item {
+		font-size: 16px;
+	}
+	.footer__button {
+		width: 40px;
+		height: 40px;
+	}
+	.footer__arrow {
+		width: 18px;
+		height: 18px;
+	}
+	.footer__form {
+		height: 50px;
+		padding: 10px 10px 10px 20px;
+	}
+}
+
+@media (max-width: 680px) {
+	.header__nav {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.header__nav-list {
+		display: none;
+	}
+	.search-btn {
+		display: none;
+	}
+
+	.nav__button {
+		display: block;
+		margin-top: 15px;
+	}
+
+	.logo {
+		width: 55px;
+		height: 45px;
+	}
+	.hero {
+		padding-bottom: 100px;
+	}
+	.hero-content__title {
+		font-size: 32px;
+		padding-top: 40px;
+
+		margin-bottom: 25px;
+	}
+	.hero-content__text {
+		max-width: 400px;
+		font-size: 16px;
+		margin-bottom: 40px;
+		line-height: 24px;
+	}
+	.hero-content__btn {
+		font-size: 14px;
+		font-weight: 700;
+		padding: 16px 20px;
+	}
+	.process {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+	.process__title {
+		font-size: 18px;
+	}
+	.card {
+		margin-top: 15px;
+	}
+	.text {
+		margin-bottom: 15px;
+	}
+	.process__img {
+		width: 181px;
+		height: 201px;
+		margin-right: 10px;
+	}
+	.history {
+		margin-bottom: 30px;
+	}
+	.history__title {
+		margin-bottom: 20px;
+		font-size: 32px;
+		margin-top: 0;
+	}
+	.history__text {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.history__block-3 {
+		height: 314px;
+	}
+	.history__block-1 {
+		margin-right: 10px;
+	}
+	.history__block-2 {
+		margin-right: 10px;
+	}
+	.process__number {
+		font-size: 20px;
+	}
+	.product__title {
+		font-size: 32px;
+		margin-bottom: 0px;
+	}
+	.product__cart {
+		padding: 0;
+	}
+	.product__img {
+		margin-bottom: 20px;
+	}
+	.product__stars {
+		margin-bottom: -15px;
+	}
+	.product__description {
+		font-size: 14px;
+	}
+	.product__cart-title {
+		margin-bottom: 5px;
+	}
+	.menu-block {
+		display: none;
+	}
+	.stars {
+		width: 16px;
+		height: 16px;
+	}
+	.product__price {
+		margin-left: 19px;
+		font-size: 14px;
+	}
+	.product-cart__button > form > button {
+		padding: 6px;
+		font-size: 16px;
+	}
+	.svg-btn {
+		width: 20px;
+		height: 20px;
+	}
+	.product__cart {
+		margin-bottom: 30px;
+	}
+	.product__btn {
+		margin-bottom: 50px;
+	}
+	.btn {
+		padding: 10px 15px;
+		font-size: 16px;
+	}
+	.discover__img {
+		height: 230px;
+		margin: 36px;
+	}
+	.discover__title {
+		font-size: 32px;
+		margin-top: 20px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.discover__text {
+		text-align: center;
+		margin: 0 15px 20px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.discover {
+		margin-bottom: 35px;
+	}
+	.title {
+		font-size: 32px;
+		margin-bottom: 25px;
+	}
+	#map {
+		width: 260px;
+		height: 400px;
+	}
+	.reservation__form {
+		height: 400px;
+	}
+	.news__card--img {
+		max-width: 175px;
+		height: 215px;
+		margin-right: 15px;
+	}
+	.mail {
+		display: none;
+	}
+	.footer__top {
+		height: 70px;
+	}
+	.footer__logo {
+		display: block;
+	}
+	.footer__bottom {
+		height: 40px;
+	}
+	.footer__privacy {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 500px) {
+	.hero {
+		padding-bottom: 45px;
+	}
+	.hero-content__title {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	.hero-content__text {
+		max-width: 300px;
+		font-size: 14px;
+		margin-bottom: 30px;
+		line-height: 20px;
+	}
+	.hero-content__btn {
+		font-size: 14px;
+		font-weight: 700;
+		padding: 10px 15px;
+	}
+	.process {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 35px;
+	}
+	.text {
+		margin-bottom: 10px;
+	}
+	.title {
+		font-size: 26px;
+		margin-bottom: 15px;
+	}
+	.process__title {
+		font-size: 16px;
+	}
+	.process__img {
+		width: 320px;
+		height: 290px;
+		margin-right: 0;
+	}
+	.card {
+		margin-bottom: 15px;
+	}
+	.history__title {
+		margin-bottom: 10px;
+		font-size: 24px;
+		margin-top: 0;
+	}
+	.history__block-3 {
+		height: 248px;
+		padding: 10px 5px 10px;
+	}
+	.history__text {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.product__price {
+		margin-left: 6px;
+		font-size: 12px;
+	}
+	.old-price {
+		font-size: 14px;
+	}
+	.discover__img {
+		height: 200px;
+		margin: 15px;
+	}
+	.discover__title {
+		font-size: 24px;
+		margin-top: 15px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.menu {
+		margin-bottom: 35px;
+	}
+	.menu-block {
+		display: none;
+	}
+	.menu__content-block-1 {
+		width: 450px;
+		height: 70px;
+	}
+	.menu__img {
+		width: 60px;
+		height: 60px;
+		margin: 10px 10px 10px 10px;
+	}
+	.menu__titles {
+		margin-left: 105px;
+		font-size: 18px;
+	}
+	.menu__price {
+		margin: 30px 15px 30px 0px;
+	}
+	.slider__block-1 {
+		width: 450px;
+		height: 300px;
+		margin-bottom: 15px;
+	}
+	.testimonial-description {
+		width: 280px;
+		font-size: 16px;
+		line-height: 22px;
+		margin: 40px 0px 32px 0px;
+		padding-right: 40px;
+	}
+	.testimonial-title {
+		width: 73px;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.testimonial-name {
+		margin: 211px 10px 37px 40px;
+	}
+	.stars {
+		width: 20px;
+		height: 20px;
+	}
+	.testimonial-stars {
+		padding-top: 70px;
+		margin-left: 220px;
+	}
+	.reservation__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#map {
+		width: 370px;
+		height: 300px;
+	}
+	.reservation__form {
+		width: 370px;
+		height: 370px;
+	}
+	.reservation__input {
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	.news__cards {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.news__card {
+		margin-bottom: 15px;
+		height: 370px;
+	}
+	.news__card-img {
+		text-align: center;
+	}
+	.news__card--img {
+		max-width: 218px;
+		height: 215px;
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.news__description {
+		margin: 20px 16px 10px 10px;
+	}
+	.news__name {
+		margin-left: 10px;
+	}
+	.news__btn {
+		margin-left: 10px;
+	}
+	.footer__logo {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.header__nav {
+		padding: 5px 0;
+	}
+	.logo {
+		width: 40px;
+		height: 35px;
+	}
+	.btn-line {
+		height: 2px;
+	}
+	.hero {
+		padding-bottom: 30px;
+	}
+	.hero-content__title {
+		font-size: 20px;
+		margin: 20px 0 14px 0;
+		padding: 0;
+	}
+	.hero-content__text {
+		max-width: 220px;
+		font-size: 12px;
+		margin-bottom: 20px;
+		line-height: 18px;
+	}
+	.hero-content__btn {
+		font-size: 12px;
+		font-weight: 400;
+		padding: 6px 12px;
+	}
+	.process {
+		margin-top: 20px;
+	}
+	.card {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.text {
+		display: flex;
+		align-items: flex-start;
+	}
+	.history {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.history__title {
+		font-size: 20px;
+	}
+	.history__block-3 {
+		max-width: 300px;
+		height: 150px;
+	}
+	.history__img-3 {
+		display: none;
+	}
+	.history__img-1 {
+		margin: 10px 0;
+	}
+	.title {
+		font-size: 20px;
+	}
+	.text {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0;
+	}
+	.product {
+		display: block;
+	}
+	.cart {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.cart-link {
+		margin-right: 0px;
+	}
+	.product__price {
+		margin-left: 67px;
+	}
+	.discover__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column;
+	}
+	.discover__title {
+		font-size: 20px;
+	}
+	.discover__text {
+		font-size: 12px;
+	}
+	.btn {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	.menu__content-block-1 {
+		width: 295px;
+		height: 70px;
+	}
+	.menu__img {
+		width: 50px;
+		height: 50px;
+		margin: 5px;
+	}
+	.menu__titles {
+		margin-left: 70px;
+		font-size: 14px;
+	}
+	.menu__price {
+		font-size: 16px;
+		margin: 30px 10px 30px 0px;
+	}
+	.menu-block {
+		display: none;
+	}
+	.slider__img {
+		width: 100px;
+		height: 120px;
+		margin: 20px 10px 0 10px;
+	}
+	.slider__block-1 {
+		width: 300px;
+		height: 230px;
+		margin-bottom: 10px;
+	}
+	.testimonial-description {
+		width: 170px;
+		font-size: 14px;
+		line-height: 17px;
+		margin: 20px 0px 0px 0px;
+		padding-right: 0px;
+	}
+	.testimonial-name {
+		margin: 155px 0px 0px 10px;
+	}
+	.testimonial-title {
+		width: 64px;
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 10px;
+		margin-bottom: 0;
+	}
+	.testimonial-descr {
+		font-size: 12px;
+	}
+	.stars {
+		width: 15px;
+		height: 15px;
+	}
+	.testimonial-stars {
+		padding-top: 66px;
+		margin-left: 140px;
+	}
+	.slider__button {
+		margin-bottom: 35px;
+	}
+	.slider__btn {
+		width: 40px;
+		height: 39px;
+	}
+	.slider__button {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#map {
+		width: 300px;
+		height: 270px;
+	}
+	.reservation__form {
+		width: 300px;
+		height: 350px;
+	}
+	.reservation__input {
+		padding-top: 10px;
+		padding-left: 30px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+	.reservation__content {
+		margin-bottom: 35px;
+	}
+	.news {
+		margin-bottom: 35px;
+	}
+	.news__card {
+		margin-bottom: 15px;
+		height: 366px;
+		width: 300px;
+	}
+	.news__cards {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+	.news__description {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.news__name {
+		margin-left: 41px;
+		font-size: 16px;
+	}
+	.news__btn {
+		margin-left: 41px;
+	}
+	.footer__top {
+		display: none;
+	}
+	.footer__bottom {
+		height: 30px;
+	}
+}
